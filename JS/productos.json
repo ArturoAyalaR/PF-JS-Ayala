@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Frankie",
+        "price": 55,
+        "beerStyle": "Stout",
+        "abv": "5.2%",
+        "img": "../assets/images/Frankie.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mostro",
+        "price": 65,
+        "beerStyle": "IPA",
+        "abv": "5.7%",
+        "img": "../assets/images/Mostro.JPG"
+    },
+    {
+        "id": 3,
+        "name": "The Ripper",
+        "price": 60,
+        "beerStyle": "English Strong Ale",
+        "abv": "5.9%",
+        "img": "../assets/images/Ripper.JPG"
+    }
+]

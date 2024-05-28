@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+    }
+}
+
+
+/**footer**/
+footer {
+    background-color: white;
+    color: black;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+
+footer .footer-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-content {
+    width: 50%;
+}
+
+footer .footer-content h3 {
+    font-size: 20 px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+footer .footer-content p {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+footer .footer-content li {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer .footer-content li a {
+    color: black;
+}
+
+footer .footer-content li a :hover {
+    color: grey;
+}
+
+footer .footer-content li i {
+    color: black;
+}
+
+footer .footer-content li i :hover {
+    color: grey;
+}
+
+footer .bottom-bar {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+/**header**/
+header {
+    border-bottom: 1px solid black;
+}
+
+.bg-head {
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+li {
+    color: antiquewhite;
+}
+
+/*Index*/
+.main-productos {
+    background-color: rgb(233, 233, 233);
+}
+
+.main-productos-title {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.main-productos-title h1 {
+    font-size: 3rem;
+    color: rgb(90, 93, 97);
+
+}
+
+.tituloCart {
+    text-align: center;
+    color: rgb(90, 93, 97);
+}
+
+.product-List {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.product-List img {
+    width: 300px;
+    height: auto;
+
+}
+
+.product-display {
+    color: rgb(90, 93, 97);
+    text-align: center;
+}
+
+.cart-item img {
+    width: 200px;
+    height: auto;
+
+}
